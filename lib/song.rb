@@ -11,4 +11,11 @@ attr_accessor :name, :artist, :genre
  def self.count
    @@count
  end
+
+ @@genres = []
+
+ def genres
+   @@genres.uniq!
+ end
+
 end
