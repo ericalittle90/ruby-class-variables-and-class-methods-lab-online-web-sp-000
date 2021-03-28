@@ -20,11 +20,11 @@ attr_accessor :name, :artist, :genre
  end
 
  def genre
-   @@genre.uniq!
+   @@genres.uniq!
  end
 
  def artist
-   @@artist.uniq!
+   @@artists.uniq!
  end
 
 end
