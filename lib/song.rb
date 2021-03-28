@@ -29,7 +29,7 @@ attr_accessor :name, :artist, :genre
    @@artists.uniq!
  end
 
- def self.genre_count
+ def self.genre_count(genre)
    if
      @@genres.include?(genre)
      @@genre_count[genre] += 1
