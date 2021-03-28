@@ -30,7 +30,7 @@ attr_accessor :name, :artist, :genre
  end
 
  def self.genre_count
-   if 
+   if
      @@genres.include?(genre)
      @@genre_count[genre] += 1
    else
