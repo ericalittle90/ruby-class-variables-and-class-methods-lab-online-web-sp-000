@@ -19,11 +19,11 @@ attr_accessor :name, :artist, :genre
    @@count
  end
 
- def genres
+ def self.genres
    @@genres.uniq!
  end
 
- def artists
+ def self.artists
    @@artists.uniq!
  end
 
